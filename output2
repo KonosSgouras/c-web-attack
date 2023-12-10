@@ -1,0 +1,28 @@
+*   Trying 54.172.49.3:8000...
+* Connected to project-2.csec.chatzi.org (54.172.49.3) port 8000 (#0)
+> GET / HTTP/1.1
+> Host: project-2.csec.chatzi.org:8000
+> Accept-Encoding: deflate, gzip, br, zstd
+> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+> Accept-Language: el-GR,el;q=0.9,en;q=0.8,de;q=0.7
+> Authorization: Basic JXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuCg==
+> Cache-Control: no-cache
+> Connection: keep-alive
+> Pragma: no-cache
+> Sec-Fetch-Dest: document
+> Sec-Fetch-Mode: navigate
+> Sec-Fetch-Site: none
+> Sec-Fetch-User: ?1
+> Upgrade-Insecure-Requests: 1
+> User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36
+> sec-ch-ua: "Not/A)Brand";v="99", "Google Chrome";v="115", "Chromium";v="115"
+> sec-ch-ua-mobile: ?1
+> sec-ch-ua-platform: "Android"
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< WWW-Authenticate: Basic realm="Invalid user: 0x57ad5330.0x5e.0x565a9cdf.0xf7c66d20.(nil).0x57ac5453.0x565af180.(nil).0x57ad5330.0x5e.(nil).0x1.0x57ad5330.(nil).0x565ad1a9.0x5e.(nil).(nil).(nil).0xf7af290b.0xf7c64960.0xf7c66d20.0xf7ae9520.0xf7c66d20.(nil).(nil).0x42405600.0x57ac5679.0x565aeefc.0xffc2ef98.0x565a994a.
+< "
+* no chunk, no close, no size. Assume close to signal end
+< 
+* Closing connection 0

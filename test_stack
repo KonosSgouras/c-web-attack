@@ -1,0 +1,31 @@
+0x0  argument_1     | 0xffffffff
+0x4  return_address | 0xffffffff 0x8
+0x8  den_tsero      | 0xffffffff mv $1 $2
+0x12 post_data      | 0xfabfffff mv $1 $2
+0x16 post_data      | 0xfbafffff mv $1 $2
+0x20 post_data      | 0xffffffff mv $1 $2
+0x24 post_data      | 0xffffffff mv $1 $2
+0x28 post_data      | 0xffffffff mv $1 $2
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+
+
+...
+...
+0x1244 kod1
+0x1248 kod2
+0x12416 kod3
+0x12424 kod4
+

@@ -1,0 +1,53 @@
+*   Trying 127.0.0.1:8000...
+
+* Connected to 127.0.0.1 (127.0.0.1) port 8000 (#0)
+
+> GET / HTTP/1.1
+
+> Host: 127.0.0.1:8000
+
+> Accept-Encoding: deflate, gzip, br, zstd
+
+> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+> Accept-Language: el-GR,el;q=0.9,en;q=0.8,de;q=0.7
+
+> Authorization: Basic JXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuJXAuCg==
+
+> Cache-Control: no-cache
+
+> Connection: keep-alive
+
+> Pragma: no-cache
+
+> Sec-Fetch-Dest: document
+
+> Sec-Fetch-Mode: navigate
+
+> Sec-Fetch-Site: none
+
+> Sec-Fetch-User: ?1
+
+> Upgrade-Insecure-Requests: 1
+
+> User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36
+
+> sec-ch-ua: "Not/A)Brand";v="99", "Google Chrome";v="115", "Chromium";v="115"
+
+> sec-ch-ua-mobile: ?1
+
+> sec-ch-ua-platform: "Android"
+
+> 
+
+* Mark bundle as not supporting multiuse
+
+< HTTP/1.1 401 Unauthorized
+
+< WWW-Authenticate: Basic realm="Invalid user: 0x5660b1e1.0x5b.0x5660796b.0xf782ada0.(nil).0x57af9443.0x5660d200.(nil).0x57b09330.0x5b.(nil).0x1.0x57b09330.(nil).0x5660b1e1.0x5b.(nil).(nil).0xf769be7f.0xf767c55b.0xf7828a60.0xf782ada0.0xf7673a9d.0xf782ada0.(nil).(nil).0xb3132f00.0xffa28848.0x5660cefc.0xffa28818.
+
+< "
+
+* no chunk, no close, no size. Assume close to signal end
+
+< 
